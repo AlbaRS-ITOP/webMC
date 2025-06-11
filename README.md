@@ -5,7 +5,7 @@ Sitio web corporativo sencillo para **Media Caña, S.L.**, empresa de construcci
 ## Estructura del proyecto
 
 - `index.html` — Página principal en HTML5 con secciones de Sobre nosotros, Proyectos, Servicios y Contacto.
-- `style.css` — Hoja de estilos con diseño profesional: texto blanco sobre fondo negro y encabezado gris.
+- `style.css` — Hoja de estilos con variables CSS, paleta oscura con acento azul y diseño responsive.
 - `images/`
   - `logo.png` — Logotipo de la empresa.
   - `hero.jpg` — Imagen destacada de un proyecto de Media Caña.
