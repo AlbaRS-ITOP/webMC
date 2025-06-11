@@ -1,0 +1,97 @@
+/* style.css */
+/* ===================== */
+/* Fuentes y reset simple */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  color: #fff; /* Texto en blanco */
+  background: #000; /* Fondo negro */
+  line-height: 1.6;
+}
+
+/* Hero */
+.hero {
+  width: 100%;
+  max-height: 60vh;
+  overflow: hidden;
+}
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: brightness(0.9) contrast(1.2); /* Mejora visual */
+}
+
+/* Header */
+header {
+  background: #4a4a4a; /* Encabezado gris tipo logo */
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+}
+.brand {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  max-height: 50px;
+  margin-right: 1rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin-left: auto;
+}
+nav a {
+  text-decoration: none;
+  color: #fff; /* Enlaces en blanco */
+  font-weight: 400;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #00aaff; /* Azul suave al pasar */
+}
+nav a:hover {
+  color: #0077cc;
+}
+
+/* Main y secciones */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+section {
+  margin-bottom: 3rem;
+}
+h2 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+p, li {
+  margin-bottom: 0.75rem;
+}
+ul li {
+  margin-left: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  background: #fff;
+  border-top: 1px solid #eee;
+  font-size: 0.9rem;
+  color: #666;
+}
