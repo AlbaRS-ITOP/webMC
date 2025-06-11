@@ -4,16 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MEDIA CAÑA, S.L.</title>
-  <!-- Fuente moderna -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Fuentes modernas -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <div class="brand">
-      <img src="images/logo.png" alt="Logotipo Media Caña" class="logo">
+      <img src="images/logo.png" alt="Logotipo Media Caña" class="logo" loading="lazy" width="180" height="50">
     </div>
-    <nav>
+    <nav aria-label="Navegación principal">
       <ul>
         <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
         <li><a href="#proyectos">Proyectos</a></li>
@@ -24,12 +26,12 @@
   </header>
 
   <!-- Hero con foto de proyecto -->
-  <section class="hero">
-    <img src="images/hero.jpg" alt="Proyecto residencial ejecutado por Media Caña">
+  <section class="hero fade-in">
+    <img src="images/hero.jpg" alt="Proyecto residencial ejecutado por Media Caña" loading="lazy" width="1920" height="800">
   </section>
 
   <main>
-    <section id="sobre-nosotros">
+    <section id="sobre-nosotros" class="fade-in">
       <h2>Sobre nosotros</h2>
       <p>
         Media Caña S.L. es una empresa ilicitana de construcción fundada en enero de 2013 con sede en Elche, Alicante.
@@ -38,7 +40,7 @@
       </p>
     </section>
 
-    <section id="proyectos">
+    <section id="proyectos" class="fade-in">
       <h2>Proyectos</h2>
       <ul>
         <li>
@@ -53,7 +55,7 @@
       </ul>
     </section>
 
-    <section id="servicios">
+    <section id="servicios" class="fade-in">
       <h2>Servicios</h2>
       <ul>
         <li>Promoción y construcción de edificios residenciales (viviendas libres y de protección oficial).</li>
@@ -65,7 +67,7 @@
       </ul>
     </section>
 
-    <section id="contacto">
+    <section id="contacto" class="fade-in">
       <h2>Contacto</h2>
       <p>
         <strong>Dirección:</strong> Calle Justo Linde, 2 Bajo, 03208 Elche (Alicante)
